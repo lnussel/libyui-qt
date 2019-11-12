@@ -175,7 +175,8 @@ YQApplication::setLayoutDirection( const string & language )
     // Force reverse layout for Arabic and Hebrew
 
     if ( lang.startsWith( "ar" ) ||	// Arabic
-	 lang.startsWith( "he" ) )	// Hebrew
+	 lang.startsWith( "he" ) ||	// Hebrew
+	 lang.startsWith( "fa" ) )	// Persian
     {
 	yuiMilestone() << "Using reverse layout for " << language << endl;
 
